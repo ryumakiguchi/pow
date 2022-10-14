@@ -1,8 +1,16 @@
-<h1>Dogs</h1>
-<ul id="results"></ul>
-
-<form action="" id="form">
-  <input type="text" id="name">
-  <input type="text" id="breed">
-  <input type="submit">
-</form>
+<div class="body">
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3870&q=80);">
+    <div class="container">
+      <h1><strong>Check out your golf buddies!</h1>
+      <p>Add a golfer any time!</p>
+      <form action="" id="form">
+        <input type="text" id="name" placeholder="Add a golfer">
+        <input type="number" id="handicap" placeholder="Add its handicap" step="0.1">
+        <input type="text" id="review" placeholder="Add players comment">
+        <input type="submit" class="btn btn-light">
+      </form>
+    </div>
+  </div>
+  
+  <div id="results"></div>
+</div>
